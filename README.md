@@ -12,10 +12,13 @@ Follow these simple steps to create and publish a Build Scan® on [scans.gradle.
 1. Run `./gradlew build --scan`
 1. Agree to the [Terms of Service][terms-of-service] on the command line
 
-The build should end with something similar to:
+The build ended with:
 
     Publishing build scan...
-    https://gradle.com/s/ria2s2x5oaazq
+    https://gradle.com/s/rnaof7urs5zdi
+    https://gradle.com/s/clqjxbgqfafhe - Compile errors
+    https://gradle.com/s/cheathor6pmn4 - Failing tests
+
 
 Follow the green link shown at the end of the build to view your Build Scan® on [scans.gradle.com][scans.gradle.com].
 
